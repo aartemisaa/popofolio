@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: white;
+    min-height: 100vh;
+}
+.ciga{
+    align-items: center;
+}
+.info{
+    text-align: center;
+}

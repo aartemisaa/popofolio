@@ -1,0 +1,293 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: ligera;
+    src: url(../tipografia/ligera.ttf);
+}
+@font-face {
+    font-family: gruesa;
+    src: url(../tipografia/gruesa.ttf);
+}
+@font-face {
+    font-family: gruesaCurva;
+    src: url(../tipografia/gruesaCurva.ttf);
+}
+@font-face {
+    font-family: ligeraCurva;
+    src: url(../tipografia/ligeraCurva.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: #D2EBF3;
+    min-height: 100vh;
+}
+
+.navbar{
+    margin-top: 36px;
+    font-family: gruesa;
+    font-size: 1.5rem;
+}
+.habil{
+   font-family: ligera;
+   margin-top: 100px;
+   
+}
+.topHabili {
+  margin-top: 3rem;
+  font-family: gruesa;
+  font-size: 60px;
+  margin-top: 100px;
+
+}
+.topHabili2 {
+    font-family: gruesa;
+    font-size: 60px;
+    margin-top: 100px;
+    color: white;
+  }
+
+.verde{
+    margin-top: 20px;
+    text-align: center;
+    font-family: ligera;
+   
+}
+
+.verde1{
+    text-align: center;
+    margin: 25px;
+    font-family: ligera;
+}
+
+h2{
+    font-size: 2vh;
+    color: white;
+}
+
+.habilidades{
+    background-color:#82C4BD;
+}
+
+.programas{
+    background-color: #006E78;
+    justify-content: center;
+    width: 100%;
+}
+
+.icons{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.box{
+    margin: 50px;
+    background-color: #82C4BD;
+    border-radius: 5px;
+    font-size: 50px;
+    box-sizing: content-box;
+    height: 60vh;
+}
+
+.boxx{
+    background-color:#40A8AD;
+}
+
+.tipo{
+    font-family: gruesa;
+    margin-top: 150px;
+}
+.tipo2{
+    font-family: ligera;
+    margin-top: 90px;
+    font-size: 25px;
+}
+
+
+.educacion{
+    background-color: white;
+    text-align: center;
+    
+}
+
+.cursos{
+    box-sizing: content-box;
+    height: 50vh;
+    width: 50vh;
+    font-family: ligera;
+    background-color: #4ba7b0;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin: 30px;
+    margin-top: 20px;
+    position: relative;
+    top: -100px; 
+    left: 100px;
+    
+}
+
+.title{
+    font-size: 20px;
+    color: #6c584c;
+    margin-top: 25px;
+    font-size: gruesa;
+}
+
+.tipo3{
+    font-size: 25px;
+    margin-top: 5px;
+    text-align: center;
+    align-items: center;
+    color: #14213d;
+    margin-top: 50px;
+    font-family: gruesa;
+}
+
+.topBlanco{
+    color: white;
+    font-family: gruesa;
+    font-size: 70px;
+    margin-top: 3rem;
+    margin-top: 50px;
+}
+
+.carrusel-items{
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 30px 0px;
+}
+
+.carrusel-item{
+    min-width: 200px;
+    max-height: 300px;
+    height: 200px;
+
+}
+
+.carrusel-item img{
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    
+}
+.carrusel{
+    height: 55vh;
+    display: flex;
+    align-items: center;
+}
+
+.carrusel-item:hover{
+    transform: scale(1.2);
+}
+
+.clic{
+    font-family: gruesa;
+    font-size: 23px;
+    margin-top: 20px;
+    position: relative;
+    top: -100px; left:50px;
+       
+}
+.clic2{
+   color: white;
+   font-size: 20px;
+   margin-top: 20px;
+}
+
+.image{
+    margin-top: 20px;
+}
+
+
+
+.botom{
+    position: relative;
+    top: 3em;
+    margin-left: 78%;
+}
+
+.btn1{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    padding-top: 15px; ;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right:40px;
+    background-color:#1b4965;
+    border-color: #cae9ff;
+    border-width: 3px;
+    border-style: solid;
+    border-radius:35px;
+    position: relative;
+    top: 5em;
+    margin-left: 60%;
+    font-family: ligera;
+}
+
+.btn2{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    padding-top: 10px; ;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right:10px;
+    border:  2px solid;
+    background: #f5cac3;
+    border: 1px solid #f9f7f3;
+    border-width: 6px;
+    border-style: solid;
+    border-radius: 50px;
+    margin-top: 25px;
+    position: relative;
+    top: 1%;
+    left: 20%;
+    transform: translate(-10%, -2%);
+}
+
+.vesto{
+    font-family: ligera;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.final{
+    margin-top: 20px;
+    position: relative;
+    margin-left: 75%;
+    position: relative;
+    top: 50%;
+}
+.espacio{
+    background-color: #cae9ff;
+    height: 3rem;
+}
+
+.pasto{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    right: 500em;
+    margin-left: 60%;
+}
+
+.centrar{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.ojo1{
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+.ojo{
+    margin-top: 30px;
+}
+
